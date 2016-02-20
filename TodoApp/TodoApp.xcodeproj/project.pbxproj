@@ -551,7 +551,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.macneko-ayu.TodoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/blackcat/Documents/practice/swift/TodoApp/TodoApp/Classes/TodoApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/blackcat/SwiftPractice/TodoApp/TodoApp/Classes/TodoApp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -564,7 +564,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.macneko-ayu.TodoApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/blackcat/Documents/practice/swift/TodoApp/TodoApp/Classes/TodoApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/blackcat/SwiftPractice/TodoApp/TodoApp/Classes/TodoApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
