@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'QiitaAPISample' do
   pod 'Alamofire'
-  pod 'SwiftyJSON'
+  pod 'ObjectMapper'
 end
 
 target 'QiitaAPISampleTests' do
