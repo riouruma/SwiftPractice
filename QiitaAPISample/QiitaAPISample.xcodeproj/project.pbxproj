@@ -15,6 +15,7 @@
 		5D9B48371C7850EB006894C8 /* QiitaAPISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9B48361C7850EB006894C8 /* QiitaAPISampleUITests.swift */; };
 		5DB135B01C789F4C0044DE02 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB135AF1C789F4C0044DE02 /* APIClient.swift */; };
 		5DB135B11C789F4C0044DE02 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB135AF1C789F4C0044DE02 /* APIClient.swift */; };
+		5DBFCEBE1C8C30D000F75F99 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBFCEBD1C8C30D000F75F99 /* Item.swift */; };
 		D4ED5357FFCA068194740BF3 /* Pods_QiitaAPISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC2596B34135E0FBBD96069 /* Pods_QiitaAPISample.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		5D9B48361C7850EB006894C8 /* QiitaAPISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAPISampleUITests.swift; sourceTree = "<group>"; };
 		5D9B48381C7850EB006894C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB135AF1C789F4C0044DE02 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5DBFCEBD1C8C30D000F75F99 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7BC2596B34135E0FBBD96069 /* Pods_QiitaAPISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitaAPISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA399A8C36DF0BD825C2064E /* Pods-QiitaAPISample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample.debug.xcconfig"; sourceTree = "<group>"; };
 		F18F73ACBA9AACBAE65D89CC /* Pods-QiitaAPISample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitaAPISample.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiitaAPISample/Pods-QiitaAPISample.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				5D9B481D1C7850EB006894C8 /* Assets.xcassets */,
 				5D9B48221C7850EB006894C8 /* Info.plist */,
 				5DB135AF1C789F4C0044DE02 /* APIClient.swift */,
+				5DBFCEBD1C8C30D000F75F99 /* Item.swift */,
 			);
 			path = QiitaAPISample;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9B48191C7850EB006894C8 /* ArticleListViewController.swift in Sources */,
+				5DBFCEBE1C8C30D000F75F99 /* Item.swift in Sources */,
 				5D9B48171C7850EB006894C8 /* AppDelegate.swift in Sources */,
 				5DB135B01C789F4C0044DE02 /* APIClient.swift in Sources */,
 			);
