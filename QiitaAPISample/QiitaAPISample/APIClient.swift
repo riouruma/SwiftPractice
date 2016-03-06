@@ -7,34 +7,27 @@
 //
 
 import Alamofire
-import SwiftyJSON
+import ObjectMapper
 
 class APIClient {
-    var items: [[String: String?]]?  {
-        didSet {
-            NSNotificationCenter.defaultCenter()
-                .postNotificationName("ChangedItemsValue", object: nil, userInfo: nil)
-        }
-    }
 
-    func getAllUserItems() {
+    func getAllItems(success: (([Item]) -> Void)) {
         let urlString: String = "https://qiita.com/api/v2/items"
 
         Alamofire.request(.GET, urlString)
             .responseJSON { response in
                 switch response.result {
                 case .Success(let value):
-                    let json = JSON(value)
-                    var items: [[String: String?]] = []
-                    json.forEach { (_, json) in
-                        let item: [String: String?] = [
-                            "title": json["title"].string,
-                            "userId": json["user"]["id"].string
-                        ]
-                        items.append(item)
+                    if let items = value as? NSArray {
+                        var resultItems: [Item] = []
+                        for item in items {
+                            if item as? NSDictionary != nil {
+                                resultItems.append(Mapper<Item>().map(item)!)
+                            }
+                        }
+                        success(resultItems)
                     }
-                    self.items = items
-                    print(self.items)
+
                 case .Failure(let error):
                     print(error)
                 }
